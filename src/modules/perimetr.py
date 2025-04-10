@@ -1,2 +1,5 @@
-def perimetr(a,b,c):
-    return a+b+c
+def perimetr(arr):
+    summa = 0
+    for el in arr:
+        summa += el
+    return summa
